@@ -1,0 +1,140 @@
+/* === Global Reset and Base Styling === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Box Model */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* === Header === */
+  header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* box model */
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* === Navigation === */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #222;
+  }
+  
+  /* === Sections === */
+  section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Box Model */
+    border-radius: 5px;
+  }
+  
+  /* Headings inside sections */
+  section h2 {
+    margin-bottom: 10px;
+    color: #4a90e2;
+  }
+  
+  /* === Lists === */
+  ol, ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* === Table === */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;  /* Box Model */
+    text-align: left;
+  }
+  
+  table th {
+    background: #f0f0f0;
+  }
+  
+  /* === Media Section === */
+  #media img, #media video {
+    display: block;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* === Form === */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  
+  input, textarea, button {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #357ab7;
+  }
+  
+  /* === Footer === */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #4a90e2;
+    color: white;
+    border-radius: 5px;
+  }
+  

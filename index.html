@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A collection of highly recommended fiction and non-fiction books for readers of all kinds.">
+  <title>Book Recommendations</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Book Recommendations</h1>
+    <p>Explore a curated list of top books to read in fiction and non-fiction categories.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#fiction">Fiction</a></li>
+      <li><a href="#non-fiction">Non-Fiction</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <!-- Fiction Section -->
+  <section id="fiction">
+    <h2>Top Fiction Books</h2>
+    <ol>
+      <li><strong>The Great Gatsby</strong> by F. Scott Fitzgerald</li>
+      <li><strong>To Kill a Mockingbird</strong> by Harper Lee</li>
+      <li><strong>1984</strong> by George Orwell</li>
+    </ol>
+  </section>
+
+  <!-- Non-Fiction Section -->
+  <section id="non-fiction">
+    <h2>Top Non-Fiction Books</h2>
+    <ul>
+      <li><strong>Sapiens</strong> by Yuval Noah Harari</li>
+      <li><strong>Educated</strong> by Tara Westover</li>
+      <li><strong>The Power of Habit</strong> by Charles Duhigg</li>
+    </ul>
+  </section>
+
+  <!-- Table Section -->
+  <section id="book-table">
+    <h2>Book Comparison</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Great Gatsby</td>
+          <td>F. Scott Fitzgerald</td>
+          <td>Fiction</td>
+        </tr>
+        <tr>
+          <td>Sapiens</td>
+          <td>Yuval Noah Harari</td>
+          <td>Non-Fiction</td>
+        </tr>
+        <tr>
+          <td>1984</td>
+          <td>George Orwell</td>
+          <td>Fiction</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media">
+    <h2>Media</h2>
+    <img src="book-cover.jpg" alt="Book Cover" width="200">
+    <video controls width="400">
+      <source src="book-trailer.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Feedback Form -->
+  <section id="feedback">
+    <h2>Submit Your Feedback</h2>
+    <form>
+      <fieldset>
+        <legend>Your Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Feedback</legend>
+        <label for="favorite">Favorite Book:</label>
+        <input type="text" id="favorite" name="favorite">
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Book Recommendations. All rights reserved.</p>
+  </footer>
+</body>
+</html>
